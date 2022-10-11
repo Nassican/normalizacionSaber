@@ -413,6 +413,13 @@ ESTU_NSE_INDIVIDUAL text,
 ESTU_ESTADOINVESTIGACION text,
 ESTU_GENERACIONE text
 );
+
+
+
+
+
+
+
 -------------------------------------------------------------------------------------
 -- poblar tabla a partir de archivo plano
 -------------------------------------------------------------------------------------
@@ -429,15 +436,3 @@ select * from sbr11_20182 where estu_depto_reside like 'NARI_O'
 -- SELECT 17205
 -- Query returned successfully in 513 msec.
 -----------------------------------------------------------------------------------
-
-
-
-
-
-
-
-
-
-
-
-
